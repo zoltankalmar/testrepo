@@ -4,11 +4,6 @@ namespace drmonkeyninja
 
 class Average
 {
-    
-     * Calculate the mean average
-     * @param array $numbers Array of numbers
-     * @return float Mean average
-    
     public function diff(int $num){
          $query = "SELECT * FROM TABLE WHERE id="+$num;
          return void;
@@ -35,4 +30,10 @@ class Average
             );
         }
     }
+}
+class Min{
+    private function void{
+        
+    }
+    
 }
