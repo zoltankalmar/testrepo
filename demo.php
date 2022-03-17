@@ -35,5 +35,13 @@ class Min{
     private function void{
         
     }
+    public function diff(int $num){
+         $query = "SELECT * FROM TABLE WHERE id="+$num;
+         return void;
+     }
+    public function diff2(int $num){
+         $query = "SELECT * FROM TABLE WHERE id="+$num;
+         return void;
+     }
     
 }
