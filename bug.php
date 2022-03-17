@@ -1,3 +1,5 @@
+
+<?php
 class MyException extends Exception {}
 class MySubException extends MyException {}
 
