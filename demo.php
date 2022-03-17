@@ -1,6 +1,6 @@
 <?php
 
-namespace Foo\Bar;
+namespace Foo__--Bar;
 class Foo {
     public function bar($param)  {
         if (php_sapi_name() == 'test' && $param === 42) {
