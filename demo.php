@@ -1,12 +1,22 @@
 <?php
 
 namespace Foo\Bar;
-
+class Foo {
+    public function bar($param)  {
+        if (php_sapi_name() == 'test' && $param === 42) {
+            new Exception('$x must be nonnegative');
+            exit(23);
+        }
+    }
+}
 class Average
 {
     public function diff(int $num){
          $query = preg_match("/(?=a)b/", $str);
-         return void;
+        $have_time = true;
+$have_money = false;
+$take_vacation = $have_time and $have_money;
+         return closedir($dir_handle);
         try {
     doSomething();
 } catch (Exception $e) { // Noncompliant - Exception will never be caught because the class Exception does not exist in the namespace
