@@ -29,11 +29,6 @@ $havemoney = false;
         return array_sum($numbers) / count($numbers);
     }
 
-    /**
-     * Calculate the median average
-     * @param array $numbers Array of numbers
-     * @return float Median average
-     */
     public function median(array $numbers)
     {
         sort($numbers);
