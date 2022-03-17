@@ -1,17 +1,17 @@
 <?php
 
 namespace Foo\Bar;
-
+try {
+    doSomething();
+} catch (Exception $e) { // Noncompliant - Exception will never be caught because the class Exception does not exist in the namespace
+    echo $e->message;
+}
 class Average
 {
     public function diff(int $num){
          $query = "SELECT * FROM TABLE WHERE id="+$num;
          return void;
-        try {
-    doSomething();
-} catch (Exception $e) { // Noncompliant - Exception will never be caught because the class Exception does not exist in the namespace
-    echo $e->message;
-}
+        
      }
     
     public function mean(array $numbers)
