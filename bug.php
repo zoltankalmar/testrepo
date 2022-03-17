@@ -9,6 +9,7 @@ try {
   echo $e;
 } catch (MySubException $e) { // Noncompliant: MySubException is a subclass of MyException
   echo "Never executed";
+  exit(23)
 }
 class NoThrowable {}
 
