@@ -9,7 +9,7 @@ try {
 class Average
 {
     public function diff(int $num){
-         $query = "SELECT * FROM TABLE WHERE id="+$num;
+         $query = preg_match("/(?=a)b/", $str);
          return void;
         
      }
