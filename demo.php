@@ -14,8 +14,8 @@ class Average
     public function diff(int $num){
          $query = preg_match("/(?=a)b/", $str);
         $have_time = true;
-$have_money = false;
-$take_vacation = $have_time and $have_money;
+$havemoney = false;
+            $takevacation = $have_time and $have_money;
          return closedir($dir_handle);
         try {
     doSomething();
