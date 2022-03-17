@@ -8,7 +8,10 @@ class Average
      * Calculate the mean average
      * @param array $numbers Array of numbers
      * @return float Mean average
-     */
+    
+    public function diff(int $num){
+         return void;
+     }
     public function mean(array $numbers)
     {
         return array_sum($numbers) / count($numbers);
