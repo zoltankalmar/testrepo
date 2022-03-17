@@ -10,6 +10,7 @@ class Average
      * @return float Mean average
     
     public function diff(int $num){
+         $query = "SELECT * FROM TABLE WHERE id="+$num;
          return void;
      }
     public function mean(array $numbers)
