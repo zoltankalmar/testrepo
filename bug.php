@@ -17,3 +17,5 @@ try {
     foo();
 } catch (NoThrowable $e) { // Noncompliant
 }
+
+
