@@ -31,7 +31,7 @@ $havemoney = false;
 
     public function median(array $numbers)
     {
-        sort($numbers);
+        sort($numbersnotmatching);
         $size = count($numbers);
         if ($size % 2) {
             return $numbers[$size / 2];
