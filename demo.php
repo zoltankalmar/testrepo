@@ -5,7 +5,7 @@ class Foo {
     public function bar($param)  {
         if (php_sapi_name() == 'test' && $param === 42) {
             new Exception('$x must be nonnegative');
-            exit(23);
+            //exit(23);
         }
     }
 }
